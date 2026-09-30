@@ -5,14 +5,13 @@
   box-sizing: border-box;
 }
 
-/* Quitar márgenes y padding por defecto */
 * {
   margin: 0;
   padding: 0;
 }
 
 html {
-  -webkit-text-size-adjust: 100%; /* evita zoom de texto en móviles */
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -20,7 +19,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Medios responsivos por defecto */
 img,
 picture,
 video,
@@ -30,7 +28,6 @@ svg {
   max-width: 100%;
 }
 
-/* Los formularios heredan la tipografía */
 input,
 button,
 textarea,
@@ -38,7 +35,6 @@ select {
   font: inherit;
 }
 
-/* Evitar desbordes de texto largo */
 p,
 h1,
 h2,
@@ -49,7 +45,6 @@ h6 {
   overflow-wrap: break-word;
 }
 
-/* Quitar estilos de listas si usas <ul> para navegación */
 ul,
 ol {
   list-style: none;
@@ -62,4 +57,8 @@ a {
 
 h1 {
     color: red;
+}
+
+footer {
+    margin: 10px;
 }
